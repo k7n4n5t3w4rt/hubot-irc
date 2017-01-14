@@ -23,7 +23,7 @@ To get your own hubot up and running we recommend following the [Getting Started
       HUBOT_IRC_UNFLOOD="true" \
       bin/hubot -a irc --name myhubot
 
-**Note**: The default hubot configuration will use a redis based brain that assumes the redis server is already running.  Either start your local redis server (usually with `redis-start &`) or remove the `redis-brain.coffee` script from the default `hubot-scripts.json` file.
+**Note**: The default hubot configuration will use a redis based brain that assumes the redis server is already running.  Either start your local redis server (usually with `redis-start &`) or remove the `hubot-redis-brain` package from `package.json` and the default `external-scripts.json` file.
 
 ## Configuring the Adapter
 
